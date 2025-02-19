@@ -15,15 +15,14 @@ body {
 .header-box1{
    background-color: #000000;
    color: whitesmoke ;
-   
    width:100%;
     display: flex;
     padding-top: 3px;
-   
     padding-left: 24%;
     font-size:12px;
     font-weight:100px;
     font-family: "Poppins", serif;
+   
 }
 .header-box1 a{
     padding-left:4px;
