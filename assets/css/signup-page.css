@@ -58,51 +58,44 @@ body {
     padding-left: 5px;
 }
 .container2{
-  
-    height: 50px;
-    padding-top: 10px;
-  
-   
+
     display: flex;
-    flex-direction: row;
+    height: 48px;
     background-color: rgba(255, 255, 255, 0.895);
- 
-    margin-left: 136px;
-    
+   justify-content:space-between;
+   margin-left: 135px;
+   margin-right: 135px;
+   align-items: center;
 
 }
 .container2-heading
 {    
     font-size: 14px;
     font-family: "Poppins", serif;
-    
+    justify-content: center;
+   align-items: center;
+
 }
 .nav-bars{
     display: flex;
-     
-    height:50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    
-     justify-content: center;
-     align-items: center;
-  
-    
-
+    margin: 0;
+   
 }
 .div-ul{
     display: flex;
-    
-    
-    margin-left: 10px;
+    justify-content: space-between;
+    gap: 60px;
+    font-size: 16px; 
     font-family: "Poppins", serif;
+    margin: 0;
+    vertical-align: middle;
+    align-items: center;
    
     
 }
 .hi{
      display: flex;
-     padding-left:20px;
-    margin-left:50px;
+     
 }
 #sign-under{
   text-decoration: underline;
@@ -115,62 +108,66 @@ body {
     font-family: "Poppins", serif;
  
 }
-.img-search{
-    position: absolute;
-    right: 0px;
-  margin-right: 134px;
+.img-search {
   display: flex;
-  height: 50px;
-  
+  align-items: center;
+  position: relative;
+ 
+ height: 35px;
+  width: 200px;
+  background-color: whitesmoke
+
+ 
+}
+
+.img-search input {
+  border: none;
   outline: none;
+  flex: 1;
+  font-size: 14px;
 
+  background:transparent;
 
-    
-
-} #i1{
-   background-color:rgba(245, 245, 245, 0.858);
- border-radius:3px;
-   border: none;
-  border-right: none;
-  height: 30px;
- width: 140px;
- padding-top: 10px;
-  text-align: center;
-   font-size: 12px;
-  
-}
- #i2{
-padding-top: 10px ;
-width:27px;
-height:27px;
-border: none;
 }
 
+.img-search img {
+  background:transparent;
+  border: none;
+ 
+  display: flex;
+  align-items: center;
+}
+
+.img-search img {
+  width: 20px;
+  height: 20px;
+}
   .box3{
    
     display: flex;
   flex-direction: row;
   padding: 2% 0%;
- 
-  
+ height: auto;
+  width: 100vw;
+  margin-right: 135px;
 
   }
-  .side-img{
-    width:700px;
-    height:550px;
-  }
   .side-img img{
-    width: 650px;
-    height: 550px;
+    width:56vw;
+    height: auto;
+   
   }
+  
  
 .login-box{
    position:absolute;
     right: 1px;
   margin-right: 135px;
-   padding-top:35px;
-   align-items: right;
-   justify-content: right;
+   padding-top:5%;
+   align-items: center;
+   justify-content:center;
+   vertical-align: middle;
+
     
 
 }
@@ -197,8 +194,7 @@ padding-top: 5px;
     padding-left:8px;
   }
   #btn1{
-    margin-top:5px;
-padding: 13px 13px;
+  
     width: 295px;
     background-color:#DB4444;
     color: white;
@@ -209,16 +205,17 @@ padding: 13px 13px;
     height: 40px;
   }
   button{
- 
-
-padding:6px;
+    height: 40px;
     width: 295px;
     background-color: white;
     color:black;
-  
+    align-items: center;
+    text-align: center;
+    justify-content: center;
     border:1px  solid black;
     border-radius: 4px;
-    height: 37px;
+    
+    
   }
   span{
     padding-left: 50px;
@@ -227,13 +224,9 @@ padding:6px;
 
   }
   button img{
-    width: 13px;
-    height: 11px;
-    padding-right:7px;
-
-  
-    
-    
+    width: 12px;
+    height: 12px;
+    padding-right:6px;
   }
 
   
@@ -247,7 +240,7 @@ padding:6px;
     margin: 0;
 }
 .footer div {
-    max-width: 250px;
+    max-width: 270px;
 }
 .footer h3 {
   font-size: 16px;
@@ -266,16 +259,33 @@ padding:6px;
   font-family: "Poppins", serif;
   font-weight: 300;
 }
-.footer input {
-  width: 80%;
-  padding: 10px;
+
+.e1{
+  display: flex;
+  position: relative;
+  align-items: center;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  width: 190px;
+  height: 40px;
+  outline: none;
   
-    border-radius: 5px;
-    margin-top: 10px;
 }
-#email-box{
-  background-color: black;
-  border: 2px solid white;
+.e1 input{
+  flex:1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 12px;
+  display: flex;
+  color: white;
+}
+.e1 .arrow{
+  width: 17px;
+  height: 17px;
+  
+  
+
 }
 .footer button {
     background: transparent;
@@ -335,17 +345,7 @@ padding:6px;
     padding-right: 12px;
   }
 
-  .arrow1{
-    width: 15px;
-    height: 27px;
-    padding-top: 1px;
-    margin-top: 15px;
-    position: absolute;
-    padding-left: 10px;
-    margin-right: 30px;
-
-    
-  }
+  
 
 
  
