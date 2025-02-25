@@ -1,0 +1,122 @@
+**{
+    margin: 0;
+  outline: 0;
+}
+
+.dzbtbox1{
+
+background-color: #2f6386;
+text-align: center;
+height: 50px;
+display: flex;
+justify-content: center;
+
+
+}
+.box1head{
+    color: white;
+    font-weight: bold;
+     display: flex;
+    font-family:Arial, Helvetica, sans-serif;
+     font-size: 16px;
+     align-items: center;
+    
+   
+}
+ .box1head img{
+    height: 15px;
+    width: 18px;
+   padding-right: 5px;
+ }
+ .dzbtbox2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+   
+    height: 75px; 
+    background-color: white;
+  
+    
+   
+ }
+ .box2-head{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+   
+ }
+ .box2-nav{
+   display: flex;
+    gap: 50px;
+   align-items: center;
+   }
+   
+ .bye{
+    text-decoration: none;
+  
+ }
+ .box2-nav a{
+     
+    font-size: 16px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgba(0, 0, 0, 0.749);
+ }
+ .box2-head{
+    font-size: 28px;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+ }
+ .box2-head p{
+   color: rgb(41, 152, 200);
+ }
+ .dzbtbox3{
+    background-color: #e7eaf3;
+    height: 280px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+   
+
+ }
+ .box3-1 h2{
+ font-size: 65px;
+ margin-bottom: 10px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+ }
+
+ .box3-1 a{
+    font-size: 18px;
+    color: #2f6386;
+    font-weight:bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+  
+
+ }
+ span{
+ 
+    padding-left: 4px;
+    padding-right: 7px;
+ }
+ .dzbtbox4{
+     background-color: #2f6386;
+     height: 60px;
+     display: flex;
+     align-items: center;
+     text-align: center;
+ }
+ 
+ .star{
+    align-items: center;
+    text-align: center;
+    justify-content: center; 
+    padding-right: 20px;
+ }
+ .marq img{
+    padding-right: 20px;
+ }*
