@@ -4,6 +4,9 @@ body {
     margin: 0;
     padding: 0;
     background:white;
+    width:100%;
+    overflow-x:hidden;
+    
     
    
    
@@ -13,14 +16,16 @@ body {
     display:flex;
     height:101px;
     border-bottom:2px solid whitesmoke;
-    
   
   background-color:white;
     justify-content:space-between;
 
 }
-@media screen and (max-width:500px)and (min-width:800px){
-    body{background-color:pink}
+@media screen and (max-width:1000px) and (min-width:500px) {
+    body{
+        background-color:pink;
+       
+    }
    
        
 }
@@ -141,11 +146,11 @@ color:#FF7F56
 }
 .image2{
    align-items:center;
-   padding-top:25px;
-    height:20px;
+   padding-top:39px;
+    height:30px;
     position:absolute;
     right:10px;
-    width:330px;
+    width:350px;
     display:flex;
     
    
@@ -216,6 +221,8 @@ color:#FF7F56
 .image3{
     text-align:right;
     position:absolute;
+    top:180px;
+    z-index:10;
     right:0;
    margin-bottom:70px;
    height:70px
