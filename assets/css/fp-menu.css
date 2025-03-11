@@ -343,6 +343,7 @@ line-height: 30px;
   border: 1.5px solid #DBDFD0;
   border-radius: 10px;
   text-align: center;
+  padding-bottom: 15px;
 }
 .stallbox img {
   width: 100%;
@@ -462,11 +463,216 @@ DM Sans;
 }
 .stallbox span{
   color:black;
-  font-size: 12px;
+  font-size: 14px;
   text-align:center;
-  padding-left: 10px;
-  padding-top: 10px;
    font-weight: 600;
    margin-bottom: 20px;
   font-family:DM Sans;
+ 
+}
+.page-heading h1{
+  
+ text-align: center;
+ font-family:Playfair Display;
+ font-weight: 600;
+ font-size: 50px;
+ margin-left: 150px;
+ margin-right:150px;
+ line-height: 60px;
+}
+.noodles{
+  margin-left: 150px;
+  margin-right: 150px;
+  width: 75%;
+  margin-bottom: 50px;
+}
+.noodles img{
+  width: 100%;
+}
+.order{
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: left;
+}
+.order h2{
+  font-size: 22px;
+  font-weight: 700;
+  font-family:
+  DM Sans;
+  color: black;
+  line-height: 20px;
+}
+.order p{
+  font-size: 14px;
+  font-weight: 500;
+  font-family:
+  DM Sans;
+  color: #414536;
+  line-height: 20px;
+  margin-bottom: 20px;
+  
+}
+.order ol{
+  font-size: 14px;
+  font-weight: 500;
+  font-family:
+  DM Sans;
+  color: #414536;
+  line-height: 20px;
+  word-spacing: 3px;
+  letter-spacing: -1%;
+  
+}
+.readmore{
+  text-align: center;
+}
+.readmore h2{
+  font-size: 46px;
+  font-weight: 700;
+  font-family:
+  Playfair Display;
+  margin-bottom: 10px;
+}
+.readmore p{
+  font-size: 14px;
+  font-weight: 400;
+  font-family:
+DM Sans;
+margin-left: 30%;
+margin-right: 30%;
+line-height: 20px;
+margin-bottom: 70px;
+}
+.color{
+  background-color: #F9F9F7;
+  height: 500px;
+  margin-bottom: 330px;
+}
+.form-box{
+  width: 600px;
+  height: 400px;
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color:white;
+  border-radius: 10px;
+  box-shadow:5px #2C2F24;
+  padding: 20px;
+  border: 1px solid white;
+  box-shadow: 3px 5px 10px 5px rgb(230, 228, 228);
+ 
+ 
+}
+.name-email{
+  display: flex;
+  justify-content: space-between;
+}
+.name-email input{
+  width: 250px;
+  height: 40px;
+  border: 1px solid #DBDFD0;
+  border-radius: 40px;
+  padding-left:10px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  
+}
+.name-email label{
+   font-family:
+   DM Sans;
+  font-size: 14px;
+  font-weight: 600;
+
+}
+::placeholder{
+  font-size: 10px;
+  font-family:DM Sans ;
+}
+#subject1{
+  font-family:
+  DM Sans;
+ font-size: 14px;
+ font-weight: 600;
+}
+#subject{
+  width: 590px;
+  height: 40px;
+  border: 1px solid #DBDFD0;
+  border-radius: 40px;
+  padding-left:10px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+
+  
+}
+#message{
+  font-family:
+  DM Sans;
+ font-size: 14px;
+ font-weight: 600;
+}
+#message1{
+  width: 580px;
+  height: 80px;
+  border: 1px solid #DBDFD0;
+  border-radius: 10px;
+  padding-left:10px;
+  margin-top: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+
+  
+}
+#btnred{
+  width: 600px;
+  height: 50px;
+  border: 1px solid #DBDFD0;
+  border-radius: 40px;
+  padding-left:10px;
+  margin-top: 8px;
+ background-color:#AD343E;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: white;
+  font-family:
+  DM Sans;
+
+}
+.callus{
+  width: 600x;
+  margin-left: 25%;
+  margin-right: 25%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.cl{
+  width: 30%;
+}
+.cl h2{
+  font-size: 14px;
+  font-weight: 500;
+  font-family:
+  DM Sans;
+}
+.cl p{
+  color: #AD343E;
+  font-weight: 700;
+  font-family:DM Sans ;
+  font-size: 14px;
+}
+.hour{
+  width: 30%;
+}
+.hour h2{
+  font-size: 14px;
+  font-weight: 500;
+  font-family:
+  DM Sans;
+}
+.hour p{
+
+  padding-right: 40px;
+  font-weight: 400;
+  font-family:DM Sans ;
+  font-size: 14px;
 }
