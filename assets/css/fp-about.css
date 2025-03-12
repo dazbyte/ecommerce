@@ -90,10 +90,7 @@ body {
    border-radius: 20px;
    padding: 4px 8px 4px 8px;
   }
-  #home-nav{
-    background-color: #DBDFD0;
-   
-  }
+ 
   .btn1 button{
     border-radius:20px;
     font-size: 14px;
@@ -420,6 +417,10 @@ body {
 margin-left: 50px;
 line-height: 30px;
 
+}
+#about-nav{
+  background-color: #DBDFD0;
+ 
 }
 
 .footer3 h4{
