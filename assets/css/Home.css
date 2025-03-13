@@ -98,9 +98,9 @@ body{
 }
 
 .highlight1{
-    color: inherit; /* Inherits the white color */
-    font-weight: inherit; /* Ensures no extra bold effect */
-    text-shadow: none; /* Removes any unwanted shadow */
+    color: inherit; 
+    font-weight: inherit; 
+    text-shadow: none; 
 }
 .cta-btn {
     background: linear-gradient(to right, red, orange);
@@ -114,7 +114,7 @@ body{
     display:flex;
   margin-bottom:100px;
     height:629px;
-    width:629px;
+    width:529px;
     margin-top: 79px;
     margin-left:-200px;
     background:transparent;
@@ -178,7 +178,7 @@ body{
     font-size: 35px;
     font-weight: bold;
     margin-bottom: 90px;
-    color:white;
+    color:#FFFFFF;
     width: 700px;
     padding-left:350px;
    
@@ -221,7 +221,7 @@ body{
    
 }
 .back {
-    position: relative;
+    
     width: 100%;
     height: 100vh;
     background-image:url("/assets/images/Rectangle\ 6.png");

@@ -236,6 +236,8 @@ label {
     font-weight: bold;
     display: block;
     margin-bottom: 5px;
+    font-style:poppins;
+    width:97px;
 }
 
 
@@ -274,14 +276,18 @@ textarea {
 
 .submit-button {
     background-color: red;
-    color: white;
+    color: #000000;
     border: none;
-    padding: 10px 20px;
+    padding: 12px 20px;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 10px;
     align-self: flex-end; 
+    margin-bottom:80px;
+    font-weight:400;
+    font-style:poppins;
 }
+
 
 
 .top-curve {
@@ -380,6 +386,7 @@ flex-direction: column;
     color: #000000;
     margin: 5px 0 15px;
     font-weight: 400;
+    font-style:poppins;
 }
 
 .input-group {

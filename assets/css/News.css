@@ -62,17 +62,17 @@ body{
 .span{
     margin-bottom:10px;
 }
-.contact-btn {
+.contact{
     
     background-color: red;
     border: none;
-    padding: 7px 15px;
+    padding: 10px 17px;
     color: white;
     cursor: pointer;
-    width:107.7px;
-    height:41.34px;
+    width:80.7px;
+    height:23.34px;
     border-radius:6px;
-   margin-top:25px;
+  
    margin-right:23px;
   
 }
@@ -343,6 +343,7 @@ body{
     color: #000000;
     margin: 5px 0 15px;
     font-weight: 400;
+    font-style:poppins;
 }
 
 .input-group {
