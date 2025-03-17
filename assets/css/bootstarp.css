@@ -1,0 +1,282 @@
+.navbar-brand img{
+    width: 80px;
+   
+    height: 80px;
+    
+}
+.navbar-brand span{
+    font-family:poppins;
+    font-weight: 600;
+   
+}
+.nav-item{
+    padding-right: 70px;
+    
+    font-weight: 500;
+    font-family: poppins;
+    color: rgb(16, 14, 14);
+}
+.navbar-header {
+    font-size: 14px;
+   
+    
+
+}
+.navbar-header button{
+    background-color:#7976FA ;
+    font-size: 14px;
+    font-family: poppins;
+}
+.container-fluid{
+ padding-top: 10px;
+ height: 60px;
+}
+.col-md-5 .btn{
+    font-size: 13px;
+    width: 100px;
+    font-family: poppins;
+    margin-right: 40px;
+    background-color: #7976FA;
+    border: none;
+}
+
+.col-md-5 h1{
+    font-size: 60px;
+    letter-spacing: 2px;
+    line-height: 70px;
+    
+}
+#hr{
+    margin: 0;
+}
+.d-block{
+    height: 400px;
+}
+
+.text-muted{
+    font-family:poppins;
+    font-weight: 500;
+    color: #857E7E;
+    line-height: 30px;
+    font-size: 16px;
+    
+    margin-bottom: 20px;
+}
+.trust-box{
+    width: 200px;
+    position: absolute;
+    right: 200px;
+    height: 100px;
+    width: 110px;
+    border: 1px solid black;
+    border-right: none;
+    border: none;
+   padding-left: 30px;
+   padding-top: 15px;
+   padding-bottom: 5px;
+   align-content: right;
+   border-radius: 20px;
+    background-image: linear-gradient(to right, #7976FA , #D9D9D900);
+}
+.trust-box h2{
+    font-family: poppins;
+    font-weight:bold;
+    font-size: 26px;
+    line-height: 26px;
+    margin-bottom: 5px;
+    margin-right: -20px;
+}
+.trust-box p{
+    font-family: poppins;
+    font-weight:500;
+    font-size: 12px;
+    line-height: 20px;
+    margin-right: -20px;
+    
+}
+.profile-group img{
+    width: 70px;
+    height: 70px;
+    margin-right: 30px;
+}
+ .profile-text{
+   align-self: center;
+   font-family: poppins;
+   font-weight: 400;
+   font-size: 20px;
+} 
+.dive-into h2{
+    font-family: poppins;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 20px;
+    line-height: 60px;
+} 
+.dive-into p{
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 400;
+   padding-top: 30px;
+    line-height: 30px;
+    width: 400px;
+    color: #857E7E;
+}
+.dive-into button{
+    font-family: poppins;
+    font-size: 12px;
+    margin-top: 10px;
+    width: 120px;
+    background-color: #7976FA;
+    border: none;
+}
+.b-block{
+    border-radius: 10%;
+    width: 100%;
+    height: 400px;
+    border: 2px solid whitesmoke;
+  
+    
+    
+}
+
+.footer span{
+    font-size: 14px;
+    color: #857E7E;
+    font-family: poppins;
+    line-height: 16px;
+    vertical-align: center;
+}
+.ft span{
+    width: 30px;
+    line-height: 20px;
+
+}
+.ft12 span{
+    width: 100px;
+    display: flex;
+    line-height: 20px;
+}
+.ft1 span{
+    width:120px;
+    word-spacing: 2px;
+    font-size: 14px;
+    line-height: 20px;
+    
+    
+}
+.footer h2{
+    margin: 0;
+    margin-right: 10px;
+    line-height: 30px;
+}
+.btns1 .active{
+    width: 150px;
+   
+    font-weight: 500;
+}
+.btns1 button{
+    margin-bottom: 25px;
+}
+.btns1 .inactive{
+    width: 170px;
+    border: 1.5px solid black;
+    border-radius: 30px;
+   font-family: poppins;
+   font-size: 14px;
+   font-weight: 600;
+
+}
+.btns1 .inactive1{
+    width: 190px;
+    border: 1.5px solid black;
+    border-radius: 30px;
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 600;
+ 
+
+}
+.btns1 .inactive2{
+    width: 200px;
+    border: 1.5px solid black;
+    border-radius: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.green img{
+    width: 100%;
+}
+.btns {
+    gap: 20px;
+}
+.violet{
+    border: 1px solid black;
+}
+.threeone{
+    display: flex;
+   padding-left: 20px;
+   margin-bottom: 10px;
+}
+.threeone h2{
+     
+    text-align: center;
+    font-weight: bold;
+    
+}
+.hi p{
+    margin: 0;
+    padding-left: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.hi span{
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.violet{
+    width: 80%;
+    border-radius: 20px;
+    text-align: center;
+   padding: 30px;
+   
+    background-image: linear-gradient(#06558F,#06558F);
+}
+.violet h3{
+    color: white;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 50px;
+}
+.star{
+    display: flex;
+    padding-left: 10px;
+    gap: 10px;
+}
+.violet h5{
+    color: white;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 15px;
+   align-self: center;
+}
+.violet h4{
+    color: white;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 18px;
+    vertical-align: center;
+   
+}
+.violet p {
+    color: white;
+    
+}
+.text{
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
