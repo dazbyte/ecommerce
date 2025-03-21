@@ -5,11 +5,16 @@
    color:rgb(88, 13, 158);
 
 }
-.nav-item a{
+#navbarNav .nav-link{
  color:rgb(88, 13, 158); 
  font-size: 16px;
 font-family: poppins;
 }
+#navbarNav .nav-link:hover{
+    color:rgb(170, 18, 18); 
+    font-size: 16px;
+   font-family: poppins;
+   }
 .top{
     background-image: linear-gradient( rgb(31, 154, 225),rgba(255, 255, 255, 0.886));
 }
@@ -25,30 +30,37 @@ marquee{
     height: 550px;
     width:100%;
 }
+.img2 img{
+    height: 250px;
+    width:100%;
+}
 
 .img2 h2{
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 36px;
     color:#dccf11;
     line-height: 30px;
    text-align:left;
+   margin-top: 20px;
 }
 .img2 h3{
     font-family:display fair;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     color: green;
-    line-height: 18px;
+    line-height: 20px;
     text-align:left;
+    margin-top: 10px;
  
 }
 .img2 p{
     font-family:Arial, Helvetica, sans-serif;
     font-weight:bold;
-    font-size: 30px;
+    font-size: 36px;
     color: green;
     text-align:right;
+    margin-top: 40px;
  
 }
 
@@ -70,15 +82,24 @@ marquee{
 }
 .btn-box{
     background-color:#f6f6f6;
-    padding: 25px;
-    padding-top:10px;
+    padding: 20px;
    width: 350px;
-   height: 250px;
+   height: 150px;
+   text-align: left;
    border-radius: 20px;
 }
-.btn-box button{
-    height: 40px;
-    width: 300px;
+.btn-box h3{
+    font-family:poppins;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.btn-box p{
+    font-family:poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+
 }
 .footer {
     background: linear-gradient(to right, #0a3876, #0d1d38);
@@ -121,7 +142,7 @@ marquee{
 .nav-item a{
     color: black;
 }
-.nav-link a:hover{
+.nav-fill a:hover{
     border-bottom: 2.5px solid red;
 }
 .nav-fill.nav-link{
@@ -140,7 +161,7 @@ marquee{
     font-family: poppins;
     text-decoration: none;
     font-weight: 400;
-    border-bottom: 2.5px solid red;
+    border-bottom : 2.5px solid red;
     box-shadow: 1px 1px 2px 2px rgb(227, 224, 224);
     background-color: white;
 
