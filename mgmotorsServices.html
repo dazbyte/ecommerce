@@ -254,5 +254,28 @@
         </div>
     </div>
 </footer>
+<div class="floating-button" id="menuToggler" onclick="toggleMenu()">☰</div>
+<div class="menu-container" id="menu">
+    <a href="#">Book a Test Drive</a>
+    <a href="#">Book Showroom Visit</a>
+    <a href="#">Book a Service</a>
+    <a href="#">Our Outlets</a>
+    <a href="#">Genuine Accessories</a>
+    <a href="#">WhatsApp</a>
+</div>
+<script>
+    function toggleMenu() {
+        var menu = document.getElementById("menu");
+        var toggler = document.getElementById("menuToggler");
+        
+        if (menu.classList.contains("show")) {
+            menu.classList.remove("show");
+            toggler.innerHTML = "☰";
+        } else {
+            menu.classList.add("show");
+            toggler.innerHTML = "✖";
+        }
+    }
+</script>
   </body>
 </html>
